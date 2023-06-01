@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url("../fonts/Nunitobold.woff");
+}
+
+body {
+    font-family: Nunito, sans-serif;
+    height: 100%;
+    background: linear-gradient(to left, #F8F8FA 50%, #FFFF 50%);
+    position: relative;
+}
+
+.header {
+    padding: 27px 0 56px 0;
+    text-align: center;
+}
+
+.main {
+    padding: 52px 0 191px 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+}
+
+.main-info {
+    max-width: 496px;
+}
+
+.main h2 {
+    font-size: 36px;
+    line-height: 49px;
+    color: #000000;
+    margin-bottom: 17px;
+}
+
+.main-description {
+    font-size: 22px;
+    line-height: 27px;
+    color: #636363;
+    margin-bottom: 42px;
+}
+
+.form-input {
+    font-size: 16px;
+    line-height: 27px;
+    color: #C6C6C4;
+}
+
+.form-input:not(:first-child) {
+    margin-top: 20px;
+}
+
+.main-input {
+    width: 452px;
+    padding: 5px 0 5px 0;
+    background: #F8F8FA;
+    border: none;
+    border-bottom: 1px solid #C6C6C4;
+    box-sizing: border-box;
+    font-family: Nunito, sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+    color: #323232;
+    outline: none;
+}
+
+.main-checkbox {
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 27px;
+    color: #636363;
+}
+
+.main-action {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btn {
+    width: 210px;
+    height: 70px;
+    padding: 21px 68px 25px 68px;
+    background: #DD3142;
+    border-radius: 40px;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    cursor: pointer;
+    border: 0;
+    outline: none;
+    text-align: center;
+}
+
+.main-question {
+    margin-top: 44px;
+    text-align: center;
+}
+
+.main-question a {
+    font-size: 16px;
+    line-height: 27px;
+    color: #636363;
+    text-decoration: none;
+}
+
+.main-image {
+    margin-top: 75px;
+    margin-left: 52px;
+}
+.popup-container {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.4);
+    display: none;
+}
+
+.popup {
+    width: 600px;
+    height: 200px;
+    position: fixed;
+    background: white;
+    padding: 50px;
+    border: 0;
+    border-radius: 40px;
+    top: calc(50% - 100px);
+    left: calc(50% - 300px) ;
+    text-align: center;
+}
+
+.popup-text {
+    margin-bottom: 100px;
+    font-size: 22px;
+    line-height: 27px;
+    color: #636363;
+}
+
