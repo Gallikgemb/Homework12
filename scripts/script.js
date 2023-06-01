@@ -216,4 +216,6 @@ window.onload = function () {
         // form.removeEventListener('submit', func);
         // form.addEventListener('submit', f);
     }
+
+    console.log('Hello');
 }
