@@ -84,21 +84,22 @@ window.onload = function () {
     // Вариант №2
     const form = document.querySelector('form');
     form.addEventListener('submit', registration);
+
     function registration(event) {
         event.preventDefault();
-        if(!form[0].value) {
+        if (!form[0].value) {
             alert('Enter Full name');
         } else if (!form[1].value) {
             alert('Enter Username');
-        } else if(!form[2].value) {
+        } else if (!form[2].value) {
             alert('Enter E-mail');
-        } else if(!form[3].value) {
+        } else if (!form[3].value) {
             alert('Enter Password');
-        } else if(form[3].value.length < 8) {
+        } else if (form[3].value.length < 8) {
             alert('Password must be at least 8 characters long');
-        } else if(form[3].value.length !== form[4].value.length) {
+        } else if (form[3].value.length !== form[4].value.length) {
             alert('Password mismatch');
-        } else if(!form[5].checked) {
+        } else if (!form[5].checked) {
             alert('You dont agree to our Terms of Service and Privacy Statement');
         } else {
             form.reset();
@@ -110,9 +111,9 @@ window.onload = function () {
         event.preventDefault();
         if (!form[0].value) {
             alert('Enter Username');
-        } else if(!form[1].value) {
+        } else if (!form[1].value) {
             alert('Enter Password');
-        } else if(form[1].value.length < 8) {
+        } else if (form[1].value.length < 8) {
             alert('Password must be at least 8 characters long');
         } else {
             alert('Welcome, ' + form[0].value + ' !');
@@ -169,7 +170,6 @@ window.onload = function () {
     // }
 
 
-
     let popupBtn = document.getElementById('popup-btn');
     popupBtn.onclick = function () {
         // registration.removeEventListener("click", up);
@@ -216,6 +216,6 @@ window.onload = function () {
         // form.removeEventListener('submit', func);
         // form.addEventListener('submit', f);
     }
-
-        console.log('Hello world');
+    console.log('Hello world');
+    console.log('Hello');
 }
